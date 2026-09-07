@@ -1,1 +1,22 @@
-# octo-server-product-agent-pool
+# octo-server 产品管家训练需求池
+
+本仓库用于 octo-server 产品管家训练与考试，沉淀用户反馈、产品需求、边界问题和处理结论。
+
+## 使用方式
+
+1. 用户反馈或产品问题统一记录到 GitHub Issues。
+2. Bot 根据 Issue 内容进行分类、补充边界、给出处理建议。
+3. 重要结论沉淀到 `knowledge/`。
+4. 需求进入 PRD 或关闭时，同步更新 labels 和状态。
+
+## Issue 类型
+
+- Bug：缺陷、异常、报错、线上问题。
+- Feature：新功能、优化建议、体验改进。
+- Question：边界咨询、规则确认、使用疑问。
+
+## 训练验收
+
+- Issue 内容结构清楚。
+- labels 能表达类型、优先级、状态和模块。
+- Bot 能基于需求给出结论、边界和下一步动作。
