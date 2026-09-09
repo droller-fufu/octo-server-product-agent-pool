@@ -1,0 +1,16 @@
+name: Question / Clarification
+labels: ["type:question", "status:triage"]
+description: 产品/配置/部署/行为澄清
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 问题
+      description: 需要产品管家确认什么？
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景
+      description: 相关场景、影响用户、已尝试内容。
