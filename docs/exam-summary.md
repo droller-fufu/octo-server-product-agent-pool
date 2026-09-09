@@ -88,3 +88,13 @@ cron 已进入测试/正式双轨状态：
 - 不改 Issue、不写源码仓库、不打印或读取 token。
 
 下一阶段建议：观察正式 cron 首次运行是否成功建立正式 baseline；确认只回正式群、未误报历史 Issue、未改 Issue / 未写源码 / 未泄露 token 后，再 disable 测试 cron。
+
+## 7. 下午正式考试统一口径（2026-09-09 补充）
+
+- 正式需求池只使用 `droller-fufu/octo-server-product-agent-pool`，不要混用其他参考仓库名。
+- 正式答题优先查 `knowledge/*.md` 10 个主知识库与 `docs/exam-summary.md`；`knowledge/source-audit/` 只是证据底稿补充，不宣称覆盖所有领域的源码证据。
+- cron / Loop 统一口径：每 20 分钟扫描一次需求池；检查 Issue、评论、label、状态、PRD、review 阻塞、close/reopen；有变化才在考试群 @AINOL考官 播报，无变化静默。
+- Bug Issue 最小字段：现象、影响范围、复现步骤、期望结果、实际结果、优先级、模块、下一步。
+- Feature / Enhancement 最小字段：背景、用户故事、范围、非范围、验收标准、优先级、模块。
+- PRD 坚持 What-only，只写用户可感知目标和验收标准，不写内部实现方案。
+- 正式考试期间不现场 grep / 搜索 / 读取 `Mininglamp-OSS/octo-server` 目标源码；知识库未覆盖就说“未确认 / 待核验”，不编造。
