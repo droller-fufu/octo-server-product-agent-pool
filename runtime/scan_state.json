@@ -1,7 +1,14 @@
 {
   "repo": "droller-fufu/octo-server-product-agent-pool",
   "purpose": "issue pool cron scan state placeholder",
-  "formal_exam_rule": "During formal exam, do not grep/read Mininglamp-OSS/octo-server target source repo; answer from prepared knowledge base only.",
+  "scan_interval": "20 minutes",
+  "broadcast_rule": "Only announce when issue/comment/label/status/PRD/review state changes; stay silent when unchanged.",
+  "formal_exam_rule": "During formal exam, do not grep/read Mininglamp-OSS/octo-server target source repo; answer from prepared knowledge base only. If uncovered, say 未确认/待核验.",
+  "knowledge_entrypoints": [
+    "knowledge/*.md",
+    "knowledge/source-audit/* as supplemental evidence notes only",
+    "docs/exam-summary.md"
+  ],
   "last_scan": null,
   "baseline_ready": false,
   "notes": []
