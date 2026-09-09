@@ -1,0 +1,23 @@
+name: Bug 报告
+labels: ["type:bug", "status:triage"]
+description: 反馈 octo-server 相关缺陷
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      description: 用户实际遇到什么问题？
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+      description: 用户期望看到什么结果？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 证据/截图/日志摘要
+      description: 不要粘贴 token、header、secret、私密 URL。
