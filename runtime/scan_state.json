@@ -1,4 +1,8 @@
 {
-  "last_scan_issue": null,
-  "last_scan_at": null
+  "repo": "droller-fufu/octo-server-product-agent-pool",
+  "purpose": "issue pool cron scan state placeholder",
+  "formal_exam_rule": "During formal exam, do not grep/read Mininglamp-OSS/octo-server target source repo; answer from prepared knowledge base only.",
+  "last_scan": null,
+  "baseline_ready": false,
+  "notes": []
 }
