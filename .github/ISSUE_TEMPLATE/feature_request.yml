@@ -1,0 +1,23 @@
+name: Feature / Enhancement
+labels: ["type:feature", "status:triage"]
+description: 提交功能或增强需求
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 谁在什么场景下需要这个能力？
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 用户价值
+      description: 解决什么问题，带来什么收益？
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准（用户可感知）
+      description: 只写 What，不写 How。
